@@ -9,7 +9,6 @@ OpenCore configuration for Lenovo Yoga 720-13IKB
 
 ## Credits
 - inspired by https://github.com/dragonflylee/Yoga-730-hackintosh 
-- ported to OpenCore
 
 ## State 
 - [x] Catalina is working fine
