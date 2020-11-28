@@ -23,9 +23,9 @@ OpenCore configuration for Lenovo Yoga 720-13IKB
 ## Some details
 
 ### DW1820A 
-Followed this guide: https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojavecatalina/
+Followed this thread to get rid of the freezes: https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojavecatalina/
 -> works! 
 
 ### Devirtualise MMIO
-activated, working withelist contained 
+activated, working whithelist contained 
 (without this quirk, Big Sur installer won't start at all - altough Catalina runs fine)
