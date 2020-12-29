@@ -4,7 +4,7 @@ OpenCore 0.64 configuration for Lenovo Yoga 720-13IKB
 - 16GB RAM
 - 512GB SSD NVMe (Adata, replaced the shipped Samsung -> check the web, lots of trouble)
 - UHD 620
-- Internal 4K display
+- Internal 4K display (uses -igfxmpc and pre-release WhateverGreen 1.4.6, instead of -cdfon/enable-hdmi20)
 - Broadcom DW1820A (replaced the shipped WiFi card)
 
 ## Credits
@@ -12,7 +12,9 @@ OpenCore 0.64 configuration for Lenovo Yoga 720-13IKB
 
 ## State 
 - [x] Catalina is working fine
-- [ ] Big Sur is under investigation, due to 4K display stuff (-cdfon/enable-hdmi20 switch). Gets stuck in an endless reboot. 
+- [x] Big Sur: installer gets stuck in a reboot loop at stage 2. 
+               But: using a preinstalled volume (e.g. by another Mac/OC-Hack) works fine with this configuration! 
+               Any hints welcome
 
 ## BIOS/Firmware settings
 - Virtualization on
@@ -28,4 +30,9 @@ Followed this thread to get rid of the freezes: https://osxlatitude.com/forums/t
 
 ### Devirtualise MMIO
 activated, working whithelist contained 
-(without this quirk, Big Sur installer won't start at all - although Catalina runs fine)
+(without this quirk, Big Sur installer won't start at all - although Catalina runs fine without)
+
+### enable-max-pixel-override / WhateverGreen
+see this:
+https://github.com/acidanthera/WhateverGreen/commit/978cb8c7a744ac189074225fd8eb2f16feb5a4c0
+
