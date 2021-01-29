@@ -1,10 +1,10 @@
 # Yoga-720-opencore
-OpenCore 0.64 configuration for Lenovo Yoga 720-13IKB
+OpenCore 0.65 configuration for Lenovo Yoga 720-13IKB
 - Core i7-8550U (Kaby Lake R)
 - 16GB RAM
 - 512GB SSD NVMe (Adata, replaced the shipped Samsung -> check the web, lots of trouble)
 - UHD 620
-- Internal 4K display (uses -igfxmpc and pre-release WhateverGreen 1.4.6, instead of -cdfon/enable-hdmi20)
+- Internal 4K display (uses -igfxmpc instead of -cdfon/enable-hdmi20 to get it running with Big Sur)
 - Broadcom DW1820A (replaced the shipped WiFi card)
 
 ## Credits
