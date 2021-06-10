@@ -1,5 +1,5 @@
 # Yoga-720-opencore
-OpenCore 0.65 configuration for Lenovo Yoga 720-13IKB
+OpenCore 0.70 configuration for Lenovo Yoga 720-13IKB
 - Core i7-8550U (Kaby Lake R)
 - 16GB RAM
 - 512GB SSD NVMe (Adata, replaced the shipped Samsung -> check the web, lots of trouble)
