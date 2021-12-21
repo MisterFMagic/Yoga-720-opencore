@@ -12,7 +12,8 @@ OpenCore 0.76 configuration for Lenovo Yoga 720-13IKB
 
 ## State 
 - runs Monterey 12.1 fine! 
-- if you are interestend in an configuration for Big Sur, a branch for Big Sur is available in this repository as well
+- not tested on Big Sur, I expect problems due to new Bluetooth-Kexts (see Dortania Guide) running this configuration with Big Sur. 
+- (a branch for Big Sur is available in this repository as well (although OC and Kexts are outdated))
 
 ## BIOS/Firmware settings
 - Virtualization on
