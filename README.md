@@ -1,5 +1,5 @@
 # Yoga-720-opencore
-OpenCore 0.70 configuration for Lenovo Yoga 720-13IKB
+OpenCore 0.76 configuration for Lenovo Yoga 720-13IKB
 - Core i7-8550U (Kaby Lake R)
 - 16GB RAM
 - 512GB SSD NVMe (Adata, replaced the shipped Samsung -> check the web, lots of trouble)
@@ -11,10 +11,8 @@ OpenCore 0.70 configuration for Lenovo Yoga 720-13IKB
 - inspired by @dragonflylee and his Clover-based Yoga 730 config that worked quite fine with my 720:  https://github.com/dragonflylee/Yoga-730-hackintosh 
 
 ## State 
-- [x] Catalina is working fine
-- [x] Big Sur: installer gets stuck in a reboot loop at stage 2. 
-               But: using a preinstalled volume (e.g. by another Mac/OC-Hack) works fine with this configuration! 
-               Any hints welcome
+- runs Monterey 12.1 fine! 
+- if you are interestend in an configuration for Big Sur, a branch for Big Sur is available in this repository as well
 
 ## BIOS/Firmware settings
 - Virtualization on
