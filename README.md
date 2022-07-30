@@ -11,7 +11,7 @@ OpenCore 0.82 configuration for Lenovo Yoga 720-13IKB
 - inspired by @dragonflylee and his Clover-based Yoga 730 config that worked quite fine with my 720:  https://github.com/dragonflylee/Yoga-730-hackintosh 
 
 ## State 
-- runs Monterey 12.1 fine! 
+- runs Monterey 12.5 fine! 
 - not tested on Big Sur, I expect problems due to new Bluetooth-Kexts (see Dortania Guide) running this configuration with Big Sur. 
 - (a branch for Big Sur is available in this repository as well (although OC and Kexts are outdated))
 
