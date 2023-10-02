@@ -1,19 +1,22 @@
 # Yoga-720-opencore
-OpenCore 0.82 configuration for Lenovo Yoga 720-13IKB
+OpenCore 0.95 configuration for Lenovo Yoga 720-13IKB
 - Core i7-8550U (Kaby Lake R)
 - 16GB RAM
-- 512GB SSD NVMe (Adata, replaced the shipped Samsung -> check the web, lots of trouble)
+- 1024GB SSD NVMe (replaced the shipped Samsung -> check the web, lots of trouble)
 - UHD 620
 - Internal 4K display (uses -igfxmpc instead of -cdfon/enable-hdmi20 to get it running with Big Sur)
-- Broadcom DW1820A (replaced the shipped WiFi card)
+- Using the shipped Intel WiFi / BT card
+- Support for Broadcom Cards included, but Kexts disabled
+- Uses MacBookPro15,4 instead of 14,1 to be ready for Sonoma
 
 ## Credits
 - inspired by @dragonflylee and his Clover-based Yoga 730 config that worked quite fine with my 720:  https://github.com/dragonflylee/Yoga-730-hackintosh 
 
 ## State 
-- runs Monterey 12.5 fine! 
-- not tested on Big Sur, I expect problems due to new Bluetooth-Kexts (see Dortania Guide) running this configuration with Big Sur. 
+- runs Ventura 13.6 fine! 
+- preparing for Sonoma (switch to Intel Wifi/BT and waiting for airportitlwm being ready for the upgrade)
 - (a branch for Big Sur is available in this repository as well (although OC and Kexts are outdated))
+- Touchpad not working, under investigation
 
 ## BIOS/Firmware settings
 - Virtualization on
@@ -22,6 +25,9 @@ OpenCore 0.82 configuration for Lenovo Yoga 720-13IKB
 - SATA to AHCI
 
 ## Some details
+
+### Bluetooth working again 
+Due to this modification: https://osxlatitude.com/forums/topic/18225-enable-bluetooth-in-macos-ventura-134-for-broadcom-intel-bluetooth-intel-bluetooth-fix/
 
 ### DW1820A 
 Followed this thread to get rid of the freezes: https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojavecatalina/
