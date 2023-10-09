@@ -16,7 +16,6 @@ OpenCore 0.95 configuration for Lenovo Yoga 720-13IKB
 - runs Ventura 13.6 fine! 
 - preparing for Sonoma (switch to Intel Wifi/BT and waiting for airportitlwm being ready for the upgrade)
 - (a branch for Big Sur is available in this repository as well (although OC and Kexts are outdated))
-- Touchpad not working, under investigation
 
 ## BIOS/Firmware settings
 - Virtualization on
